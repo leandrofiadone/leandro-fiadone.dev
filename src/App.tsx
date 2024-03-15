@@ -14,7 +14,6 @@ function App() {
       <div className="absolute inset-0 flex justify-center items-stretch">
         <div className="flex justify-center items-center">
           <HeroCard />
-          <p>Test</p>
         </div>
       </div>
 
