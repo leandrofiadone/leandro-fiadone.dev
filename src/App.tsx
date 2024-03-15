@@ -1,6 +1,7 @@
 
 import HeroCard from './HeroCard'
 import Matrix from './Matrix'
+import ButtonsLinks from './components/ButtonsLinks'
 
 function App() {
 
@@ -12,8 +13,9 @@ function App() {
     <div>
       <Matrix />
       <div className="absolute inset-0 flex justify-center items-stretch">
-        <div className="flex justify-center items-center">
+        <div className="flex flex-col justify-center items-center">
           <HeroCard />
+          <ButtonsLinks/>
         </div>
       </div>
 

@@ -10,6 +10,7 @@ const SocialIcons = () => {
                 <SocialIcon className="social-icon" style={{ height: 27, width: 27 }} url="https://www.linkedin.com/in/leandro-fiadone/" target="_blank"/>
                 <SocialIcon className="social-icon" style={{ height: 27, width: 27 }} network='whatsapp' url="https://wa.link/nwjb5i" target="_blank"/>
             </div>
+            
         </div>
     )
 }
