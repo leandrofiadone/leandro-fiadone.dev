@@ -1,7 +1,7 @@
     "use client"
     import React, {useRef, useState} from "react"
-import BadgeShine from './BadgeShine'
-import SocialIcons from './components/SocialIcons'
+    import BadgeShine from './BadgeShine'
+    import SocialIcons from './components/SocialIcons'
 
 
     const CardSpotlight = () => {
@@ -65,7 +65,7 @@ import SocialIcons from './components/SocialIcons'
                         <div className='blur-lg'>
                         <SocialIcons />
                         </div>
-                    <div className="absolute top-0 md:left-24 left-3 ">
+                    <div className="absolute top-0 md:left-16 left-1 ">
                         <SocialIcons />
                     </div>
                     </div>
