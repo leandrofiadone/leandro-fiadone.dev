@@ -14,11 +14,11 @@ const Matrix: React.FC = () => {
             canvas.width = window.innerWidth
 
             const matrix: string =
-            "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%+-/~{[|`]}"
+            "leandro-fiadone- fullstack-Developer"
             // Convertimos `matrix` de un string a un array de strings (caracteres)
             const matrixArray: string[] = matrix.split("")
 
-            const font_size = 8
+            const font_size = 10
             const columns = canvas.width / font_size // Number of columns for the rain
             // An array of drops - one per column
             const drops: number[] = []
@@ -33,7 +33,7 @@ const Matrix: React.FC = () => {
             // Translucent BG to show trail
             if (!ctx) return
 
-            ctx.fillStyle = "rgba(0, 0, 0, 0.09)"
+            ctx.fillStyle = "rgba(0, 0, 0, 0.06)"
             ctx.fillRect(0, 0, canvas.width, canvas.height)
 
             ctx.fillStyle = "#5442f4" //
@@ -61,13 +61,13 @@ const Matrix: React.FC = () => {
         }
         }
 
-        const interval = setInterval(draw, 40)
+        const interval = setInterval(draw, 35)
 
         // Cleanup on component unmount
         return () => clearInterval(interval)
     }, [])
 
-    return <canvas className="matrix-container" id="c" ref={canvasRef} />
+    return <canvas className="matrix-container"  ref={canvasRef} />
     }
 
 export default Matrix
