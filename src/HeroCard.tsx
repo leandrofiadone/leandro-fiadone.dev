@@ -1,7 +1,7 @@
     "use client"
     import React, {useRef, useState} from "react"
-import BadgeShine from './BadgeShine'
-import SocialIcons from './components/SocialIcons'
+    import BadgeShine from './BadgeShine'
+    import SocialIcons from './components/SocialIcons'
 
 
     const CardSpotlight = () => {
@@ -46,7 +46,7 @@ import SocialIcons from './components/SocialIcons'
                 onBlur={handleBlur}
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
-                className="relative flex flex-col overflow-hidden rounded-xl border border-gray-800 bg-gradient-to-r from-black to-gray-950 px-20 py-16 shadow-2xl ">
+                className="relative flex flex-col overflow-hidden rounded-sm border border-gray-800 bg-gradient-to-r from-black to-gray-950 px-20 py-8 md:py-11 shadow-2xl ">
                 <div
                     className="pointer-events-none absolute -inset-px opacity-0 transition duration-300  "
                     style={{
@@ -65,7 +65,7 @@ import SocialIcons from './components/SocialIcons'
                         <div className='blur-lg'>
                         <SocialIcons />
                         </div>
-                    <div className="absolute top-0 md:left-24 left-4 ">
+                    <div className="absolute top-0 md:left-16 left-1 ">
                         <SocialIcons />
                     </div>
                     </div>
