@@ -7,15 +7,18 @@ function App() {
 
 
 
-
+//todo
 
   return (
     <div>
+
       <Matrix />
       <div className="absolute inset-0 flex justify-center items-stretch">
         <div className="flex flex-col justify-center items-center">
           <HeroCard />
+
           <ButtonsLinks/>
+
         </div>
       </div>
 
