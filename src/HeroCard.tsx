@@ -54,13 +54,15 @@
                     background: ` radial-gradient(600px circle at ${position.x}px ${position.y}px, rgba(255,182,255,.1), transparent 40%)`
                     }}
                 />
-
+                
                 <BadgeShine />
                 <div className="underline decoration-3 decoration-solid underline-offset-8 md:mt-2 mt-2 ml-4 md:ml-3 ">
                     {" "}
-                    <span className="md:text-4xl  bg-gradient-to-t from-[#c7d2fe74] to-[#8678f9] bg-clip-text text-sm text-transparent ">
-                    FullStack-Developer
-                    </span>
+                        <a href="https://leanfiadone.vercel.app/" title="Legacy portfolio" target="_blank" rel="noopener noreferrer" className="md:text-4xl bg-gradient-to-t from-[#c7d2fe74] to-[#8678f9] bg-clip-text text-sm text-transparent">
+                            <span className="md:text-4xl bg-gradient-to-t from-[#c7d2fe74] to-[#8678f9] bg-clip-text text-sm text-transparent">
+                                FullStack Developer
+                            </span>
+                        </a>
                     <div className="relative mt-3">
                         <div className='blur-lg'>
                         <SocialIcons />
