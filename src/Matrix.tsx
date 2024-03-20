@@ -22,7 +22,7 @@ const Matrix: React.FC = () => {
         const matrixArray: string[] = matrix.split("")
 
         // Define el tamaño de la fuente y calcula el número de columnas basado en el ancho del canvas
-        const font_size = 8
+        const font_size = 6
         const columns = canvas.width / font_size // Número de columnas para la lluvia
         // Crea un array de gotas, una por cada columna
         const drops: number[] = []
