@@ -2,7 +2,7 @@
 import HeroCard from './HeroCard'
 import Matrix from './Matrix'
 
-import ButtonsLinks from './components/ButtonsLinks'
+// import ButtonsLinks from './components/ButtonsLinks'
 //import AnimationsIntro from './components/AnimationsIntro'
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         <div className="flex flex-col justify-center items-center">
           <HeroCard />
           {/* <AnimationsIntro/> */}
-          <ButtonsLinks/>
+          {/* <ButtonsLinks/> */}
 
         </div>
       </div>
